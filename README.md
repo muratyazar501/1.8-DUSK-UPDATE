@@ -58,4 +58,14 @@ rusk-wallet stake-info
 
 ![image](https://github.com/Volkan081/1.8-DUSK-UPDATE/assets/95221293/0aa67ee0-e1b9-4c24-9f6c-cdb9eabaf7a6)
 
+# BLOK HATASI VE ÇÖZÜMÜ
+
+347393 blokta hata gösteriyor bunun çözümü olarak aşağıdaki kodu giriniz
+
+
+```shell
+sudo /opt/dusk/bin/download_state.sh 369876 
+service rusk restart
+```
+
 
